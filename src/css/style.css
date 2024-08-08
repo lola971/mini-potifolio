@@ -1,0 +1,125 @@
+body{
+    background-image: url(../img/fundo-site.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    font-family: 'vt323', monospace;
+    color: #f3f3f3;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.cartao{
+   background-color: #070d12;
+   width: 370px;
+   border: 2px solid #d126d9;
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.cartao .minhas-informacoes{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.cartao .abas img{
+    width: 30px;
+}
+
+.cartao .minhas-informacoes img{
+    width: 96px;
+    height: 96px;
+    border-radius: 50px;
+    border: 2px solid #02d08f;
+}
+
+.cartao .minhas-informacoes .minhas-informacoes{
+font-size: 26px;
+}
+
+.cartao .minhas-informacoes .cargo{
+font-size: 20px;
+color: #b8bbc5;
+}
+
+.catao .conteudo{
+    margin-top: 15px;
+}
+
+.cartao .abas{
+    display: flex;
+}
+
+.cartao .abas .aba{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: backgroud-color 0.2s ease-in-out;
+}
+
+.cartao.abas .aba:hover{
+background-color: #414141;
+}
+
+.cartao .informacoes-abas{
+background-color: #262626;
+}
+
+.informacoes-abas .informacoes{
+    min-height: 260px;
+    padding: 15px;
+}
+
+.informacoes-abas .subtitulos{
+    font-size: 24px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.imformacoes .sobre-discricao{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.informacoes .redes-sociais li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacoes .redes-sociais li{
+font-size: 30px;
+padding: 15px;
+margin: 10px;
+}
+
+.redes-sociais .curriculo{
+    color: #f3f3f3;
+    background-color: #d00213;
+    padding: 10px 25px;
+    border-radius: 7px;
+}
+
+.redes-sociais .linkedin{
+    color: #f3f3f3;
+    background-color: #0A66C2;
+    padding: 10px 30px;
+    border-radius: 7px;
+}
+
+.redes-sociais .gihub{
+    color: #f3f3f3;
+    background-color: #0a0e11;
+    padding: 10px 42px;
+    border-radius: 7px;
+}
